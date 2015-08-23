@@ -8,7 +8,8 @@
 		"ressource": "git+https://github.com/dmail/ressource"
 	},
 	"scripts": {
-		"postinstall": "system-postinstall"
+		"postinstall": "system-postinstall",
+		"test": "node ./test/test.js"
 	},
 	"repository": {
 		"type": "git",
