@@ -5,10 +5,11 @@
 	"dependencies": {
 		"system-postinstall": "git+https://github.com/dmail/system-postinstall",
 		"system-platform": "git+https://github.com/dmail/system-platform",
-		"ressource": "git+https://github.com/dmail/ressource"
+		"ressource": "git+https://github.com/dmail/ressource",
+		"postlink": "*"
 	},
 	"scripts": {
-		"postinstall": "system-postinstall",
+		"postinstall": "system-postinstall & postlink",
 		"test": "node ./test/test.js"
 	},
 	"repository": {
