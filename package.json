@@ -3,13 +3,11 @@
 	"version": "0.0.1",
 	"description": "Extend system.fetch allowing to get module from more locations",
 	"dependencies": {
-		"system-postinstall": "git+https://github.com/dmail/system-postinstall",
 		"system-platform": "git+https://github.com/dmail/system-platform",
 		"ressource": "git+https://github.com/dmail/ressource",
 		"postlink": "*"
 	},
 	"scripts": {
-		"postinstall": "system-postinstall & postlink",
 		"test": "node ./test/test.js"
 	},
 	"repository": {
